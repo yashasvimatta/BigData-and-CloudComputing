@@ -17,7 +17,7 @@ This project implements matrix multiplication using Hadoop MapReduce. It include
    jar -cvf multiply.jar -C . .
    ```
 2. Run the Hadoop jobs:
-   ```bash
+  ```bash
   hadoop jar multiply.jar Multiply <input_path_matrix1> <input_path_matrix2> <intermediate_output_path> <final_output_path>
-   ```
+  ```
 
